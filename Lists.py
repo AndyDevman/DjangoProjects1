@@ -60,3 +60,8 @@ places_to_see_Popped = places_to_see.pop(2)
 print("\n\tPopped location:" + str(places_to_see_Popped))
 
 print("\n\tOriginal List:" + str(places_to_see))
+
+# Loopy Lists - Looping through lists
+print("\nObjective 12 - Looping through the list using 'for-in' - Locations printed out below ")
+for City in places_to_see:
+    print ("\t" + City)
