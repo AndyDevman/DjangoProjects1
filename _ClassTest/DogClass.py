@@ -14,7 +14,7 @@ class Dog():
     # Here we can define a Classes 'Instance Method'
     def Sit(self):
         # A class method defining actions to take to make the Dog object 'Sit' are defined here
-        print('\n\n\t\t\t\t\tthe dog named:' + ' ' + str(self.name) + ' , ' + 'which is'+' ' + str(self.age) + ' ' + 'years old' + ' ' + 'is now sitting')
+        print('\n\nthe dog named:' + ' ' + str(self.name) + ' , ' + 'which is'+' ' + str(self.age) + ' ' + 'years old' + ' ' + 'is now sitting')
 
     def Roll_Over(self):
         print('Dog is now rolling over and over and over')
@@ -42,7 +42,7 @@ class Dog():
 newDogName = input('\n\nplease enter a name for our new dog:' )
 
 
-newDogAge = int(input('\n\n\n\n\tplease enter how old the new dog is:' ))
+newDogAge = int(input('\n\n\nplease enter how old the new dog is:' ))
 
 
 
@@ -57,7 +57,7 @@ fido_the_dog = Dog(newDogName,newDogAge)
 fido_the_dog.Sit()
 
 
-print ('\n\n\n\n\n\n\n\n\ndog age in human terms is :' + ' ' + fido_the_dog.get_humanAge())
+print ('\n\n\ndog age in human terms is :' + ' ' + fido_the_dog.get_humanAge())
 
 
 
