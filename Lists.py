@@ -38,3 +38,25 @@ places_to_see.sort(reverse=True)
 print(places_to_see)
 
 
+# Insert new location into the list
+print("\nObjective 8 - Insert new Location into the list, Bristol should be inserted into position '0' in the list ")
+places_to_see.insert(0, 'Bristol')
+print(places_to_see)
+
+# Insert new location into the list, using the append function.  Useful as you may not know the length of the list - this adds and item to the end of the list
+places_to_see.append('Dublin')
+print ("\nObjective 9 - Append a new location to the end of the list using the append function")
+print("List with new location 'Dublin' added:" + " " + str(places_to_see))
+
+# Remove Item from list using del
+print("\nObjective 10 - Remove item from list , using Del function - Bristol will be removed from list")
+del places_to_see[0]
+print(places_to_see)
+
+
+# Remove item from list using pop(n) - used when you need to use an item and want to simultaneously remove the item from the original list
+print("\nObjective 11 - Remove item from list , using pop() function.  Remove list item 2 from list whilst simultaneously assigning it to a variable")
+places_to_see_Popped = places_to_see.pop(2)
+print("\n\tPopped location:" + str(places_to_see_Popped))
+
+print("\n\tOriginal List:" + str(places_to_see))
