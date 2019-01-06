@@ -15,7 +15,7 @@ for number in range(1,20,2):
     print (number)
 
 # Objective 3 - Use a 'for loop' in conjunction with the range() function to print a list of even numbers
-print("\nObjective 3 - Use a 'for loop' in conjunction with the range() function to print a list of even numbers")
+print("\nObjective 3 - Use a 'for loop' in conjunction with the range() function to print a list of odd numbers")
 for number in range(1,20,3):
     print (number)
 
@@ -27,4 +27,21 @@ for loop_Variable in test_list:
 
 
 
-# Objective 4 - Use a 
+# Objective 5 - Use the sum(), min() and max() functions to expose list statitics
+print("\nObjective 5 - Use the sum(), min() and max() functions to expose list statitics ")
+Ranged_List_1 = list(range(1,1000000))
+print("max number of items in list is as below;")
+print(max(Ranged_List_1))
+print("\nmin number of items in list as below;")
+print(min(Ranged_List_1))
+print("\nsum of all numbers in list (range 1- 1000000) listed below;")
+sum(Ranged_List_1)
+print(sum(Ranged_List_1))
+
+
+
+# Objective 6 - Print a list of square numbers in the range of 1 - 10
+print("\nObjective 6 - Print a list of square numbers in the range of 1 - 10")
+for number in range (1,11):
+    print(str(number) + " " + "squared = " + str(number**2))
+
