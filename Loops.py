@@ -45,3 +45,9 @@ print("\nObjective 6 - Print a list of square numbers in the range of 1 - 10")
 for number in range (1,11):
     print(str(number) + " " + "squared = " + str(number**2))
 
+
+
+# Objective 7  - Use a list comprehension to generate a list of the first 10 cubes
+print("\nObjective 7  - Use a list comprehension to generate a list of the first 10 cubes")
+cube_list_1 = [number**3 for number in range (1,10)]
+print(cube_list_1)
