@@ -51,3 +51,18 @@ for number in range (1,11):
 print("\nObjective 7  - Use a list comprehension to generate a list of the first 10 cubes")
 cube_list_1 = [number**3 for number in range (1,10)]
 print(cube_list_1)
+
+# Objective 8 - Use a list comprehension to generate a list of the first 10 squares
+print("\nObjective 8 - Use a list comprehension to generate a list of the first 10 squares")
+square_list_1 = [number**2 for number in range(1,10)]
+print(square_list_1)
+
+
+
+# Objective 9 - use the : operand in conjunction with lists to 'slice' the list.   
+# Example list is defined as 'list = [barry,glen,ted,fred,bobby]'
+# print (list[1:3]), would produce [barry,glen]
+print("\nObjective 9 - use the : operand in conjunction with lists to 'slice' the list.")
+print("working with the list of squares produced in Objective 8 \n,we are going to use slice to output the first 5 elements")
+#print(str(square_list_1[1:6]))
+print(square_list_1[1:6])
