@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-
+# List of Dictionaries below
 posts = [
     {
         'author': 'CoreyMS',
@@ -18,6 +18,11 @@ posts = [
 
 
 def home (request):
+    # Here we set a dictionary called context
+    # the 'posts' key variable is accessible within our 
+    # home.html template
+    # the corresponding value for the dict is the posts list of dicts
+    # which we defined above
     context = {
         'posts': posts
     }
